@@ -1,0 +1,33 @@
+- wael 
+reclamation et avis
+- mayar 
+user 
+- mahmoud
+froum
+- chedli 
+offre et etat
+
+reclamation :
+id_reclamation  , email ,nom_perso,prenom_perso,num_tel , message 
+avis :
+id_avis , id_perso , message
+utilisateur :
+id_user , nom , prenom , date_nais , email , photo , adresse , username , password ,aCTIVE ,num_tel,code_recup
+poste :
+id_poste , id_user, message , photo , nb_likes, nb_comments
+comments:
+id_comment , id_user,id_poste,message,nb_likes,photo
+
+
+
+
+
+
+
+
+
+offre :
+id_offre ,id_produit,date_deb,date_fin,pourcentage
+produit:
+id_produit,id_user,nom_produit,type,photo,prix,date,etat,offre,description
+
